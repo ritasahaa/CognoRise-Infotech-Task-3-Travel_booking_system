@@ -21,6 +21,7 @@ const Image = styled.img`
 `;
 
 const Cards = () => {
+    // console.log(props)
     return (
         <Div className="container">
             <ImageContainer className="images-container">
@@ -28,7 +29,7 @@ const Cards = () => {
                 <Image src="/Images/img3.jpg" alt="Image 2" />
             </ImageContainer>
             <div className="text-container">
-                <h1>Some Text Here</h1>
+                <h1>Taal Volcano,Batangas</h1>
                 <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida odio eget ligula accumsan, vitae fringilla dui consectetur.</p>
             </div>
         </Div>
