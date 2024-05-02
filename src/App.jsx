@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Description />
-      <Home />
+      {/* <Home /> */}
       <Card1 />
     </>
   );
