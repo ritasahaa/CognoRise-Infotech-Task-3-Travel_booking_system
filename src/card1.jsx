@@ -6,7 +6,7 @@ export default function Card1() {
       <div className="flex flex-col  justify-between items-center px-10 ">
         <div className="flex  justify-between items-center ">
           <div className=" w-1/2 ">
-            <img src={image1} className="h-56 absolute rounded-md" />
+            <img src={image1} className="h-56 absolute rounded-md " />
             <img
               src={image1}
               className="h-56 relative left-[400px] top-10 rounded-md"
