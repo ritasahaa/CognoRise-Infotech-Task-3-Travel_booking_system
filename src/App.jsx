@@ -1,6 +1,7 @@
 import Home from "./Home";
 import Description from "./Description";
 import Navbar from "./Navbar";
+import RecentTrip from "./RecentTrip";
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Description />
       <Home />
+      <RecentTrip />
     </>
   );
 }
