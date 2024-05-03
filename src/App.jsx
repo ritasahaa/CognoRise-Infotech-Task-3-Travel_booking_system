@@ -1,9 +1,8 @@
 import Home from "./Home";
 import Description from "./Description";
 
-function App() {
+const App = () => {
 
- 
   return (
     <>
       <Description/>
