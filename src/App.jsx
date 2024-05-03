@@ -1,8 +1,6 @@
 import Home from "./Home";
 import Description from "./Description";
-// import Card1 from "./card1";
 import Navbar from "./Navbar";
-import Cards from "./cards";
 
 const App = () => {
 
@@ -11,8 +9,6 @@ const App = () => {
       <Navbar />
       <Description />
       <Home />
-      {/* <Card1 /> */}
-      <Cards/>
     </>
   );
 }
