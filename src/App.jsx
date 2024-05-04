@@ -2,6 +2,7 @@ import Home from "./Home";
 import Description from "./Description";
 import Navbar from "./Navbar";
 import RecentTrip from "./RecentTrip";
+import Footer from "./Footer";
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
       <Description />
       <Home />
       <RecentTrip />
+      <Footer />
     </>
   );
 }
