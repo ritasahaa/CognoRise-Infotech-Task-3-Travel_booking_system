@@ -1,14 +1,16 @@
+import Description from "./Description";
+import RecentTrip from "./RecentTrip";
 import Cards from "./cards"
 import styled from 'styled-components';
 
 
-const HomePara=styled.p`
+const HomePara = styled.p`
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 1rem;
 `
 
-const Head=styled.div`
+const Head = styled.div`
    text-align: center;
    font-weight: bold;
    font-size: 3rem;
@@ -18,6 +20,9 @@ const Head=styled.div`
 const Home = () => {
   return (
     <div>
+      <Description />
+
+
       <Head>Popular Destinations</Head>
       <HomePara>tours give you the opportunity to see a lot ,within a time frame.</HomePara>
       <Cards
@@ -34,6 +39,9 @@ const Home = () => {
         image2="/Images/bike-riding1.webp"
         reverse={true}
       />
+
+      <RecentTrip />
+
 
       {/* <Cards
         image1="/Images/bedroom.jpg"
