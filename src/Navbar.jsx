@@ -6,6 +6,8 @@ const Navbar = () => {
       <div className="navbar-nav ">
         <a className="nav-link" href="#">Travel Agency</a>
       </div>
+      
+      
 
       <div className=" justify-content-center" id="navbarNavAltMarkup">
       <div className="navbar-nav px-2 me-2"> 
