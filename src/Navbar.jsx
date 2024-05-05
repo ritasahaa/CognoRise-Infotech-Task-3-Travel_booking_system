@@ -1,3 +1,5 @@
+
+
 const Navbar = () => {
   return (
    <div>
@@ -11,8 +13,8 @@ const Navbar = () => {
 
       <div className=" justify-content-center" id="navbarNavAltMarkup">
       <div className="navbar-nav px-2 me-2"> 
-          <a className="nav-link" href="#">Home</a>
-          <a className="nav-link" href="#">Pricing</a>
+          <a className="nav-link" href="#">  Home</a>
+          <a className="nav-link" href="#">  Pricing</a> 
           <a className="nav-link" href="#">About us</a>
           <a className="nav-link" href="#">Contact us</a>
       </div>
