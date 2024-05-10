@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
@@ -12,21 +13,21 @@ const Navbar = () => {
     <nav className="navbar bg-body-tertiary fixed-top navbar-expand-lg border-bottom ">
       <div className="container-fluid">
       <div className="navbar-nav ">
-        <a className="nav-link" href="#">Travel Agency</a>
+        <Link className="nav-link" to="/">Travel Agency</Link>
       </div>
       
       
 
       <div className=" justify-content-center" id="navbarNavAltMarkup">
       <div className="navbar-nav px-2 me-2"> 
-      <a className="nav-link" href="#"> <FontAwesomeIcon icon={faHome} /> Home</a>
-          <a className="nav-link" href="#"> <FontAwesomeIcon icon={faCircleInfo} /> About</a>
-          <a className="nav-link" href="#"> <FontAwesomeIcon icon={faSuitcaseMedical} /> Service </a>
-          <a className="nav-link" href="#"> <FontAwesomeIcon icon={faAddressBook} /> Contact</a>
+      <Link className="nav-link" to="/"> <FontAwesomeIcon icon={faHome} /> Home</Link>
+          <Link className="nav-link" to="/about"> <FontAwesomeIcon icon={faCircleInfo} /> About</Link>
+          <Link className="nav-link" to="/service"> <FontAwesomeIcon icon={faSuitcaseMedical} /> Service </Link>
+          <Link className="nav-link" to="/contact"> <FontAwesomeIcon icon={faAddressBook} /> Contact</Link>
       </div>
       </div>
       
-      <button className="btn btn-primary " >Sign up</button>
+      <Link to="/signup" >Sign up</Link>
       </div>
        </nav>
       
